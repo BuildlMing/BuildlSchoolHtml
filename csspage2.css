@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.hand{
+    background-color: #333;
+    opacity: 1;
+    text-align: center ;
+    position: relative;
+    padding: 0 130px;
+}
+.hand a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 20px 15px;
+}
+/* 第二部分 */
+.top{
+    position: relative;
+    width: 100%;
+    height: 800px;   
+}
+.top img{
+    display: block;
+    margin: auto;
+    width: 100%; 
+    filter: brightness(.6)   
+}
+.top-join{
+    width: 100%;
+    position: absolute;
+    top: 0; 
+    display: flex; 
+}
+.top-join nav{
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+    text-decoration: none;
+}
+.top-join img{
+    position: relative;
+    left: 120px;
+    top: 20px;
+    display: block;
+    margin: auto;
+    padding: 10px;   
+    filter: brightness(1);
+}
+.top-tag{
+    text-decoration: none;
+    color: #fff;
+    display: inline-block; 
+    line-height: 130px;
+    padding: 0 20px;
+}
+.top-join a:hover{
+    color: #2ac5f4;
+}
+.top-join a{
+    transition: .3s;
+}
+.top-text{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;  
+    position: absolute;
+    top: 100px;
+    left: 400px;
+}
+.top-text h1 {
+    text-align: center;
+    font-size: 150px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+.top-text h2 {
+    font-size: 30px;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+.top-text-Project{
+    font-size: 10px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff; 
+    background-color: #2ac5f4;
+    height: 70px;
+    width: 250px;
+    position: relative;
+    top: 60px;
+    right: 60px;
+}
+.top-text-Project:hover{
+    background-color: #000;
+}
+/* 第三部分 */
+.title{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 50px;
+    margin-top: 150px;
+    margin-bottom: 80px;
+    margin-right: 50px;
+}
+/* 第四部分 */
+.Features{
+    margin: 50px auto 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;;
+}
+.Features-text{
+    height: 300px;
+    width: 350px;
+    margin: 20px 150px;
+    background-color: violet;
+}
+.Features-text h2{
+    padding: 0 0 20px;
+    font-size: 18px;
+}
+.Features-textp{
+    font-weight: lighter;
+    color: #666;
+}
+/* 第五部分 */
+.experience {
+    width: auto;
+    background-color: #ccc;
+    margin: 50px 0 0;
+    padding: 30px 80px 0; 
+    display: flex;
+}
+.experience img{
+    vertical-align: bottom;
+    width: 100%;
+}
+.experience-img{
+    width: 50%;
+}
+.experience-Introduction{
+    padding-top: 10%;
+    width: 50%;
+}
+.experience .experience-text{
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.experience .experience-text h1{
+    font-size: 30px;
+    padding: 0px 0 50px;
+    position: relative;
+}
+.experience .experience-text h3{
+    font-weight: lighter;
+    padding: 0px 0 30px;
+}
+.experience .experience-text p{
+    color: #666;
+}
+.experience .experience-text h1::before{
+    content: '';
+    border-top: 2px solid #2ac5f4;
+    position: absolute;
+    top: -50px;
+    width: 80px;;
+}
+.experience-text-link{
+    margin: 60px 0  0;        
+    display: block;
+   padding: 20px 0 26px;
+    text-decoration: none;
+    color: #eeeeee;
+    background-color:  #2ac5f4;
+    width: 170px;
+    height: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+.experience-text-link:hover{
+    background-color: #000;
+}
+/* 第六部分 */
+.location {
+    width: 100%;  
+}
+.location-image {
+    display: flex;
+    flex-wrap: wrap;
+}
+.location-image-item{
+    width: 100%;
+}
+.location-image-item img{
+    width: 100%;
+    height: 370px;
+    vertical-align: top;
+    padding-left: 0;
+}
+/* 第八部分 */
+.tidings {
+    color: #777;
+    width: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    display: flex;
+}
+.tidings h1{
+    color: #222222;
+    font-size: 20px;
+    padding: 30px 0;
+}
+.tidings h2{
+    font-size: 16px;
+    padding: 0px 0 20px;
+}
+.tidings-item{
+    width: 100%;
+    padding: 20px 10px;  
+}
+.tidings-item img{
+    vertical-align: top;
+     width: 100%;
+ }
+ /* 第九部分 */
+ .button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 50px;
+}
+.button-a{
+    background-color: #2ac5f4;
+    color: #eeeeee;
+    font-size: 15px;
+    width: 180px;
+    height: 50px;
+    bottom: -30px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-a:hover{
+    background-color: #000;
+}
+/* 第九部分 */
+.ground {
+    display: flex;
+    margin-top: 100px;
+    background-color: #333;
+    width: auto;
+    height: auto;
+    padding: 100px 0 0 50px;
+}
+.ground-image{
+    width: 25%;
+}
+.ground-image img{
+    padding: 50px 0 20px;
+}
+.ground-image p{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: 100px;
+    color: #888;
+}
+.ground-right{
+    display: flex;
+    margin-left: -100px;
+}
+.ground-text{
+    margin-left: 100px;
+}
+.ground-text h1{
+    font-weight: lighter;
+    color: #ccc;
+    font-size: 18px;
+    padding: 80px 0 0;
+}
+.ground-text li, .ground-text a{
+    color: #ccc;
+    text-decoration: none;
+    padding: 20px 0 0;
+    transition: .2s;
+}
+.ground-text a:hover{
+    color: #2ac5f4;
+}
+.end{
+    background-color: #222;
+    width: auto;
+    height: 40px;
+    font-size: 15px;
+    padding-left: 100px;
+    padding-top: 18px;
+    color: #888;
+}
+.end-a{
+    text-decoration: none;
+    color: #2ac5f4;
+}
+
+/* rwd */
+@media screen and (min-width: 768px) {
+    .col-md-l {
+        width: 8.3333333%;
+    }
+    .col-md-2 {
+        width: 16.666666%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.333333%;
+    }
+    .col-md-5 {
+        width: 41.666666%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.333333%;
+    }
+    .col-md-8 {
+        width: 66.666666%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.333333%;
+    }
+    .col-md-11 {
+        width: 91.666666%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .col-lg-l {
+        width: 8.3333333%;
+    }
+    .col-lg-2 {
+        width: 16.666666%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.333333%;
+    }
+    .col-lg-5 {
+        width: 41.666666%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.333333%;
+    }
+    .col-lg-8 {
+        width: 66.666666%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.333333%;
+    }
+    .col-lg-11 {
+        width: 91.666666%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .col-xl-l {
+        width: 8.3333333%;
+    }
+    .col-xl-2 {
+        width: 16.666666%;
+    }
+    .col-xl-3 {
+        width: 25%;
+    }
+    .col-xl-4 {
+        width: 33.333333%;
+    }
+    .col-xl-5 {
+        width: 41.666666%;
+    }
+    .col-xl-6 {
+        width: 50%;
+    }
+    .col-xl-7 {
+        width: 58.333333%;
+    }
+    .col-xl-8 {
+        width: 66.666666%;
+    }
+    .col-xl-9 {
+        width: 75%;
+    }
+    .col-xl-10 {
+        width: 83.333333%;
+    }
+    .col-xl-11 {
+        width: 91.666666%;
+    }
+    .col-xl-12 {
+        width: 100%;
+    }
+}
